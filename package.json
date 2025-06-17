@@ -1,5 +1,5 @@
 {
-  "name": "@auggie2lbcf/podcast-rss",
+  "name": "podcast-rss-generator",
   "version": "1.0.0",
   "description": "A simple and flexible podcast rss builder for Node.js",
   "main": "src/index.js",
@@ -16,7 +16,10 @@
     "feed",
     "itunes"
   ],
-  "author": "Auggie2LBCF",
+  "author": {
+      "name": "Auggie2LBCF",
+      "email": "npmjs.abnormal226@passmail.net"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
