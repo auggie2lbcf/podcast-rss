@@ -1,6 +1,6 @@
 {
-  "name": "podcast-rss-generator",
-  "version": "1.0.0",
+  "name": "@auggie2lbcf/podcast-rss-generator",
+  "version": "1.0.1",
   "description": "A simple and flexible podcast rss builder for Node.js",
   "main": "src/index.js",
   "type": "module",
