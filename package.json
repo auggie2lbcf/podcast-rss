@@ -1,0 +1,41 @@
+{
+  "name": "@auggie2lbcf/podcast-rss",
+  "version": "1.0.0",
+  "description": "A simple and flexible podcast rss builder for Node.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "podcast",
+    "rss",
+    "generator",
+    "xml",
+    "feed",
+    "itunes"
+  ],
+  "author": "Auggie2LBCF",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auggie2lbcf/podcast-rss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/auggie2lbcf/podcast-rss/issues"
+  },
+  "homepage": "https://github.com/auggie2lbcf/podcast-rss#readme",
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^30.0.0"
+  }
+}
